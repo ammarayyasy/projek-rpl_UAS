@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Admin</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="shortcut icon" href="BOOK STORE.png" type="png" />
+    <style>
+      .box {
+        padding: 30px;
+        border: solid black 2px;
+      }
+      .container {
+        margin: 25% 0 25% 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row justify-content-center">
+      <div class="col-5">
+        <div class="container">
+          <h3 style="text-align: center">Registrasi Akun</h3>
+          <div class="box">
+            <form>
+              <div class="form-group row">
+                <label for="text" class="col-4 col-form-label">Nama</label>
+                <div class="col-8">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <i class="fa fa-address-card"></i>
+                      </div>
+                    </div>
+                    <input id="text" name="text" placeholder="Masukkan nama" type="text" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="password" class="col-4 col-form-label">Email</label>
+                <div class="col-8">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <i class="fa fa-envelope"></i>
+                      </div>
+                    </div>
+                    <input placeholder="Masukkan email" type="text" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="password" class="col-4 col-form-label">Username</label>
+                <div class="col-8">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <i class="fa fa-user"></i>
+                      </div>
+                    </div>
+                    <input placeholder="Masukkan username" type="text" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="password" class="col-4 col-form-label">Password</label>
+                <div class="col-8">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <i class="fa fa-lock"></i>
+                      </div>
+                    </div>
+                    <input placeholder="Masukkan password" type="text" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <br />
+              <div class="form-group row">
+                <div class="offset-4 col-8">
+                  <a href="dashboard.html">daftar</a>
+                  <script>
+                    function daftar() {
+                      window.location = "dashboard.html";
+                    }
+                  </script>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

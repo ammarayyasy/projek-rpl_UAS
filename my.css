@@ -1,0 +1,17 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #9cd0fc;
+}
+.card-body {
+  background-color: rgba(245, 245, 245, 0.815);
+}
+body {
+  background-color: #ffffe0;
+}
+section {
+  padding-top: 5rem;
+}
+#berita,
+#login {
+  background-color: #9cd0fc;
+}
